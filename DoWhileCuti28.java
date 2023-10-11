@@ -17,10 +17,13 @@ public class DoWhileCuti28 {
                 jatahCuti -= jumlahHari;
                 System.out.println(" Sisa jatah cuti: " +jatahCuti);
             } else {
-                System.out.println(" Sisa jatah cuti anda tidak mencukupi ");
-                System.out.println(" Silahkan masukkan  jumlah hari yang sesuai. ");
+                System.out.println(" Sisa jatah cuti anda tidak mencukupi");
+                System.out.println(" Silahkan masukkan hari yang sesuai.");;
             } 
+        } else if (konfirmasi.equalsIgnoreCase("t")){
+            break;
         }
     } while (true);
 }
 }
+
