@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class DoWhileCuti28{
+public class DoWhileCuti28 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         int jatahCuti, jumlahHari;
@@ -17,12 +17,10 @@ public class DoWhileCuti28{
                 jatahCuti -= jumlahHari;
                 System.out.println(" Sisa jatah cuti: " +jatahCuti);
             } else {
-                System.out.println(" Sisa jatah cuti anda tidak mencukupi");
+                System.out.println(" Sisa jatah cuti anda tidak mencukupi ");
                 System.out.println(" Silahkan masukkan  jumlah hari yang sesuai. ");
-                break;
             } 
         }
-    } while (jatahCuti> 0);
-    }
+    } while (true);
 }
-
+}
